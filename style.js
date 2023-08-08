@@ -55,7 +55,7 @@ document.querySelector('.but').addEventListener('click',function()
         }
     }
     document.querySelector('.aga').addEventListener('click',function(){
-         ans= Math.trunc(Math.random()*20);
+         ans= Math.trunc(Math.random()*25);
         score=10;
         console.log(document.querySelector('.cc').textContent='Start checking...');
         console.log(document.querySelector('.scrhi').textContent=score);
